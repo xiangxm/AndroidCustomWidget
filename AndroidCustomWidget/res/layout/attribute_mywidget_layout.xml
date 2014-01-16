@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E8E8E8"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/attriname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#CD2626"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B0B0B0" />
+
+    <com.example.androidcustomwidget.CustomLinearLayout
+        android:id="@+id/attri_radiogrouplayout"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content" >
+    </com.example.androidcustomwidget.CustomLinearLayout>
+
+</LinearLayout>
